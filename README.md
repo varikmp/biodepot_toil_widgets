@@ -60,4 +60,4 @@ When the console says "**Finished**" and returns the **exit code** and **exit st
 
 # Tutorial Video
 
-![](https://user-images.githubusercontent.com/13698346/112031486-a2a24c80-8af8-11eb-9064-51f071ac8c01.mp4)
+![Video](https://user-images.githubusercontent.com/13698346/112031486-a2a24c80-8af8-11eb-9064-51f071ac8c01.mp4)

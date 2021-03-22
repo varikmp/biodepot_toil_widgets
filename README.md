@@ -57,3 +57,7 @@ We now double-click on that widget to select **CWL file** along with the data fi
 When the console says "**Finished**" and returns the **exit code** and **exit status** both **zeroes**, that means you successfully executed the Toil CWL file without technical errors at different container levels. (nested containers)
 
 ![](./docs/toil_cwl_output.png)
+
+# Tutorial Video
+
+[![Watch the video]]()

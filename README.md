@@ -60,4 +60,4 @@ When the console says "**Finished**" and returns the **exit code** and **exit st
 
 # Tutorial Video
 
-[![Watch the video]]()
+![Watch the video](./docs/kazam.mp4)

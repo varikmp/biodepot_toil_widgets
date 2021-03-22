@@ -44,7 +44,5 @@ When we see the Toil components on the left panel, that means we successfully in
 
 1\. Click on the Toil CWL icon to create a Toil CWL/WDL/Python widget
 
-![](./docs/toil_cwl.png)
-![](./docs/toil_wdl.png)
-![](./docs/toil_py.png)
+![](./docs/toil_cwl.png) ![](./docs/toil_wdl.png) ![](./docs/toil_py.png)
 

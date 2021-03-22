@@ -42,7 +42,18 @@ When we see the Toil components on the left panel, that means we successfully in
 
 # How to use Toil widgets
 
-1\. Click on the Toil CWL icon to create a Toil CWL/WDL/Python widget
+1\. Click on the Toil CWL icon to create a Toil CWL/WDL/Python widget.
 
 ![](./docs/toil_cwl_widget.png) ![](./docs/toil_wdl_widget.png) ![](./docs/toil_py_widget.png)
 
+Edit the widget and select the tab "**Volume**". Make sure that option "**Pass mappings for launching containers**" checked. This step is to ensure that the Toil container will have the volume mapping to the **/var/run/docker.sock** directory from the host machine (we rely on the docker daemon on the host machine).
+
+![](./docs/volume_mapping.png)
+
+We now double-click on that widget to select **CWL file** along with the data file (**YAML file**)
+
+![](./docs/toil_cwl_config.png)
+
+When the console says "**Finished**" and returns the **exit code** and **exit status** both **zeroes**, that means you successfully executed the Toil CWL file without technical errors at different container levels. (nested containers)
+
+![](./docs/toil_cwl_output.png)

@@ -8,32 +8,43 @@ We do not install Toil in Bwb containers to minimize the size of the container's
 
 # How to install Toil plugin
 
-Clone the BioDepot-workflow-builder (BWB) first and then this repository.
+1\. Clone the BioDepot-workflow-builder (BWB) first and then this repository.
 
 ```bash
 git clone https://github.com/BioDepot/BioDepot-workflow-builder
 git clone https://github.com/varikmp/biodepot_toil_widgets
 ```
 
-Run the plugin.sh script to install the Toil plugin for BWB.
-Specify the BioDepot BWB location that you cloned and the operation to install the plugin
+2\. Run the plugin.sh script to install the Toil plugin for BWB. Specify the BioDepot BWB location that you cloned and the operation to install the plugin
 
 ```bash
 ./plugin.sh BWB_DIRECTORY OPERATION
 ./plugin.sh /home/biodepot/BioDepot-workflow-builder/ install
 ```
 
-Build or rebuild the container image with the Toil plugin included
+3\. Build or rebuild the container image with the Toil plugin included
 
 ```bash
 ./plugin.sh BWB_DIRECTORY OPERATION
 ./plugin.sh /home/biodepot/BioDepot-workflow-builder/ build
 ```
 
-Launch the container
+4\. Launch the container
 
 ```bash
 ./plugin.sh BWB_DIRECTORY OPERATION
 ./plugin.sh /home/biodepot/BioDepot-workflow-builder/ launch
 ```
+
+![](./docs/toil_panel.png)
+
+When we see the Toil components on the left panel, that means we successfully installed the Toil plugin to the BWB. We are now ready to use the Toil widgets.
+
+# How to use Toil widgets
+
+1\. Click on the Toil CWL icon to create a Toil CWL/WDL/Python widget
+
+![](./docs/toil_cwl.png)
+![](./docs/toil_wdl.png)
+![](./docs/toil_py.png)
 

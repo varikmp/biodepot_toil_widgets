@@ -57,6 +57,7 @@ then
 	fi
 
 	cp -r biodepot "$BIODEPOT_BWB"
+	cp -r workflows "$BIODEPOT_BWB"
 	cp -r widgets "$BIODEPOT_BWB"
 	cp -r icons "$BIODEPOT_BWB"
 
@@ -64,7 +65,6 @@ then
 	ln -sf ../../widgets/Toil/Toil_CWL/Toil_CWL.py OWToilCWL.py
 	ln -sf ../../widgets/Toil/Toil_WDL/Toil_WDL.py OWToilWDL.py
 	ln -sf ../../widgets/Toil/Toil/Toil.py OWToilPython.py
-	ln -sf ../../icons/ icons
 	
 	refresh_list "$BIODEPOT_BWB/widgets" "$BIODEPOT_BWB/biodepot"
 	echo -e "Successfully ${CYAN}installed${NORMAL} the Toil widget plugin to the BWB"
